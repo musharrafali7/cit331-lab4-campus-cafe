@@ -259,9 +259,6 @@ input[placeholder]:not(:placeholder-shown):invalid {
   color: #0a6b50;
 }
 
-
-
-
 /* ---------- 10. Positioning ---------- */
  
 /* sticky: stays at the top while the page scrolls */
@@ -284,4 +281,4 @@ input[placeholder]:not(:placeholder-shown):invalid {
   padding: 2px 10px;
   border-radius: 999px;
 }
- 
+
