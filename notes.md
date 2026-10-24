@@ -11,4 +11,8 @@
 | Protocol in the address bar (http or https) | http |
 
 ## Why is this address http and not https?
+
+This local website is not deployed over internet so that is why its http and not https. https does encryption and we dont need that for development time.
+
 This local website is not deployed over internet so that is why its http and not https. https does encryption and we dont need that
+
