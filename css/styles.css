@@ -259,9 +259,6 @@ input[placeholder]:not(:placeholder-shown):invalid {
   color: #0a6b50;
 }
 
-
-
-
 /* ---------- 10. Positioning ---------- */
  
 /* sticky: stays at the top while the page scrolls */
@@ -379,3 +376,4 @@ fieldset.choice {
  
 .saved-orders { margin-top: 40px; }
 .table-wrap { overflow-x: auto; margin-bottom: 16px; }
+
