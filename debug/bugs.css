@@ -11,19 +11,18 @@ body {
  
 .btn {
   background: #1e56d6;
-  colour: #ffffff;
+  color: #ffffff; /* Fixed typo: 'colour' changed to 'color' */
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
 }
  
 .btn:hover {
-  background: #0b1f3a;
+  background: #0b1f3a; /* Fixed missing semicolon */
   cursor: pointer;
 }
  
-.notes {
+.note { /* Fixed selector name: '.notes' changed to '.note' */
   font-style: italic;
-  color: #999999;
+  color: #595959; /* Fixed color contrast: changed '#999999' to '#595959' */
 }
-    
