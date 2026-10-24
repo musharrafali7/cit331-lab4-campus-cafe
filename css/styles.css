@@ -258,3 +258,27 @@ input[placeholder]:not(:placeholder-shown):invalid {
   font-weight: 600;
   color: #0a6b50;
 }
+
+/* ---------- 10. Positioning ---------- */
+ 
+/* sticky: stays at the top while the page scrolls */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+ 
+/* absolute: placed inside its nearest positioned parent */
+.menu-item { position: relative; }
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--accent);
+  color: var(--text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
