@@ -16,3 +16,5 @@ This local website is not deployed over internet so that is why its http and not
 
 This local website is not deployed over internet so that is why its http and not https. https does encryption and we dont need that
 
+## XSS Security Question (Task 3)
+The browser would execute teh injected code creating a css vulverability
